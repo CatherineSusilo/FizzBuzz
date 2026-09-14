@@ -4,9 +4,9 @@ package lab1;
  * Solve the lab1.FizzBuzz challenge.
  */
 class FizzBuzz {
-    public static void doFizzBuzz(){
+    public static void doFizzBuzz(int x){
         int i = 1;
-        while (i <= 100){
+        while (i <= x){
             
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
@@ -35,7 +35,7 @@ class FizzBuzz {
     }
 
     public static void main(String[] args) {
-        doFizzBuzz();
+        // doFizzBuzz();
     }
 }
         // for (int i = 1; i <= 100; i++) {
